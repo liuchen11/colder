@@ -1,0 +1,16 @@
+How to User it?
+
+get go installed
+
+get revel installed
+
+get mongodb installed
+
+Try This:
+0.mongd
+
+1.Open the database 
+
+2.revel run ColderApp
+
+3.enter http://localhost:9000
