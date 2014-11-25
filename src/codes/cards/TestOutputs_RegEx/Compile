@@ -1,0 +1,20 @@
+true | 1 | JS 
+//
+true | 1 | HA 
+true | 1 | D8 
+//
+true | 1 | .. 
+true | 1 | .. 
+true | 1 | .A 
+true | 1 | .A 
+true | 1 | .A 
+//
+false | 4 | .. 
+true | 1 | HA 
+true | 1 | HA 
+//
+false | 2 | .A .A .A .B .B .B | a
+true | -1 | .. | a
+//
+false | 3 | JS||JB||HA 
+//

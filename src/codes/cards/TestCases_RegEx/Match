@@ -1,0 +1,9 @@
+(JS) JS
+(.A){2} HA CA
+(.K){2+} HK HK CK
+(.K){1+:a}(.A){a} HK CK CA HA
+(.[^J&^Q&^K]){2+} S3 C3 D0 S8
+(.2) JB
+(.a#){3} HA C2 D3
+((.a$)(.a)){2} HA CA D3 S3
+(JS||JB||.A||D.){3+} D3 CA 
