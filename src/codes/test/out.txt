@@ -1,0 +1,23 @@
+Match a  Keyword -> switch At  2   1
+Match a  Operator -> { At  2   7
+Match a  Keyword -> case At  3   2
+Match a  Operator -> ( At  3   7
+Match a  Identifier -> number1 At  3   8
+Match a  Operator -> == At  3   15
+Match a  Int -> 0 At  3   17
+Match a  Operator -> ) At  3   18
+Match a  Operator -> : At  3   19
+Match a  Keyword -> rbegin At  3   20
+Match a  Keyword -> default At  4   2
+Match a  Operator -> : At  4   9
+Match a  Operator -> { At  4   10
+Match a  Identifier -> host At  4   11
+Match a  Operator -> = At  4   15
+Match a  Int -> 3 At  4   16
+Match a  Operator -> ; At  4   17
+Match a  Identifier -> score At  4   18
+Match a  Operator -> = At  4   23
+Match a  Identifier -> number3 At  4   24
+Match a  Operator -> } At  4   31
+Match a  Operator -> } At  5   1
+[{switch Keyword 11 0 1 1} {{ Operator 19 0 7 1} {case Keyword 2 0 2 2} {( Operator 15 0 7 2} {number1 Identifier 0 0 8 2} {== Operator 6 0 15 2} {0 Int 0 0 17 2} {) Operator 16 0 18 2} {: Operator 24 0 19 2} {rbegin Keyword 8 0 20 2} {default Keyword 3 0 2 3} {: Operator 24 0 9 3} {{ Operator 19 0 10 3} {host Identifier 0 0 11 3} {= Operator 2 0 15 3} {3 Int 0 3 16 3} {; Operator 22 0 17 3} {score Identifier 0 0 18 3} {= Operator 2 0 23 3} {number3 Identifier 0 0 24 3} {} Operator 20 0 31 3} {} Operator 20 0 1 4}]
